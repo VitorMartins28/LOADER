@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+body {
+    font-size: 1.2em;
+}
+
+.text-title {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 8rem;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.281);
+}
+
+.bg-title {
+    background: url('../img/banner.jpg') center center no-repeat;
+}
+
+.bg-titulo-contato {
+    background: url('../img/contato.png') center center no-repeat;
+}
+
+.bg-titulo-sobre {
+    background: url('../img/Sobre.jpg') center center no-repeat;
+}
+
+.bg-footer {
+    background: #2c5050;
+}
+
+.bg-nav {
+    background-image: linear-gradient(to bottom right, #194d56, #407c9e);
+}
+
+.titulo {
+    font-size: 1.6em;
+}
+
+.img-banner {
+    height: 20rem;
+    min-height: 20rem;
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-img-top {
+    height: 10rem;
+    min-height: 10rem;
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-purple {
+    color: rgb(118, 28, 121);
+}
+
+.text-purple:hover {
+    color: rgb(98, 21, 100);
+}
+
+.modal-content {
+    box-shadow: none;
+    background: transparent;
+    border: none;
+}
+
+.fundo {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .text-title {
+        font-size: 3rem;
+    }
+    .text-subtitle {
+        font-size: 1rem;
+    }
+    .bg-title {
+        background-image: linear-gradient(to bottom right, #194d56, #40889e);
+    }
+    .bg-titulo-contato {
+        background-image: linear-gradient(to bottom right, #2d7683, #095066);
+    }
+}
